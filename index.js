@@ -1,6 +1,6 @@
 function isPalindrome(word) {
   const wordBackwards = word.split("").toReversed().join("");
-  return word === wordBackwards ? true : false;
+  return word === wordBackwards
 }
 
 /*
